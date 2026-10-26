@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/**
+ * Custom UI
+ */
+body .pswp{
+  --pswp-bg: white;
+  --pswp-placeholder-bg: @apply text-black;
+  --pswp-icon-color: #000;
+  --pswp-icon-stroke-width: 0;
+  --pswp-icon-color-secondary: white;
+}
+
+.pswp__ui {
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  bottom: 50px;
+  opacity: 0;
+  transform: translateY(35px);
+  left: 0;
+  text-align: center;
+  transition: all 0.15s ease-in-out;
+}
+body .pswp .pswp__button--arrow{
+  @apply hidden lg:block;
+}
+
+.pswp__button[disabled] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pswp--animated-in .pswp__ui {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pswp--animated-in .pswp__ui--hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.pswp__button--close {
+  margin: 0 18px;
+}
+
+.pswp__button svg {
+  pointer-events: none;
+}
+
+.pswp__error-msg {
+  position: absolute;
+  top: 40%;
+  margin: 0 15px;
+  padding: 8px 15px;
+  background: #e6554d;
+  color: #ffffff;
+  text-align: center;
+}

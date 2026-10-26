@@ -1,0 +1,88 @@
+{
+  "_leaflet-156b21e7.js": {
+    "file": "assets/leaflet-156b21e7.js",
+    "isDynamicEntry": true
+  },
+  "_vendor-60b45004.js": {
+    "file": "assets/vendor-60b45004.js"
+  },
+  "_vue-0a248c48.js": {
+    "file": "assets/vue-0a248c48.js"
+  },
+  "node_modules/leaflet/dist/images/marker-icon-2x.png": {
+    "assets": [
+      "assets/marker-icon-2x-00179c4c.png"
+    ],
+    "file": "assets/marker-icon-2x-9a28b8dd.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/leaflet/dist/images/marker-icon-2x.png"
+  },
+  "node_modules/leaflet/dist/images/marker-icon.png": {
+    "assets": [
+      "assets/marker-icon-574c3a5c.png"
+    ],
+    "file": "assets/marker-icon-dcc39de6.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/leaflet/dist/images/marker-icon.png"
+  },
+  "node_modules/leaflet/dist/images/marker-shadow.png": {
+    "assets": [
+      "assets/marker-shadow-264f5c64.png"
+    ],
+    "file": "assets/marker-shadow-a3e17d65.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/leaflet/dist/images/marker-shadow.png"
+  },
+  "node_modules/leaflet/dist/leaflet-src.esm.js": {
+    "file": "assets/leaflet-src.esm-9c358b30.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/leaflet/dist/leaflet-src.esm.js"
+  },
+  "node_modules/photoswipe/dist/photoswipe.esm.js": {
+    "file": "assets/photoswipe-3ee328cd.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/photoswipe/dist/photoswipe.esm.js"
+  },
+  "node_modules/plyr/dist/plyr.min.mjs": {
+    "file": "assets/plyr-d2156373.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/plyr/dist/plyr.min.mjs"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-5f4cb506.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-db564e41.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-db564e41.css",
+      "assets/app-5f4cb506.css"
+    ],
+    "dynamicImports": [
+      "node_modules/leaflet/dist/images/marker-icon-2x.png",
+      "node_modules/leaflet/dist/images/marker-icon.png",
+      "node_modules/leaflet/dist/images/marker-shadow.png",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "_leaflet-156b21e7.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/photoswipe/dist/photoswipe.esm.js",
+      "node_modules/plyr/dist/plyr.min.mjs"
+    ],
+    "file": "assets/app-5954eb3e.js",
+    "imports": [
+      "_vendor-60b45004.js",
+      "_vue-0a248c48.js",
+      "_leaflet-156b21e7.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

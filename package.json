@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^6.0.3",
+        "@vue-leaflet/vue-leaflet": "^0.10.1",
+        "autoprefixer": "^10.4.23",
+        "axios": "^1.13.2",
+        "i": "^0.3.7",
+        "laravel-vite-plugin": "^2.0.1",
+        "leaflet": "^1.9.4",
+        "npm": "^11.7.0",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.18",
+        "vite": "^7.0.0",
+        "vite-plugin-full-reload": "^1.2.0",
+        "vue": "^3.5.27",
+        "vue-social-sharing": "^4.0.0-alpha4"
+    },
+    "dependencies": {
+        "@heroicons/vue": "^2.0.18",
+        "@studio-freight/lenis": "^1.0.17",
+        "@studio-freight/tempus": "^0.0.38",
+        "@tailwindcss/vite": "^4.1.18",
+        "@vee-validate/rules": "^4.10.8",
+        "embla-carousel-autoplay": "^8.0.0-rc07",
+        "embla-carousel-class-names": "^8.0.0-rc11",
+        "embla-carousel-vue": "^8.0.0-rc07",
+        "embla-carousel-wheel-gestures": "^8.0.0-rc04",
+        "gsap": "^3.12.1",
+        "leaflet.markercluster": "^1.5.3",
+        "photoswipe": "^5.3.8",
+        "plyr": "^3.7.8",
+        "v-lazy-component": "^3.0.9",
+        "vee-validate": "^4.10.8",
+        "yup": "^1.2.0"
+    }
+}
